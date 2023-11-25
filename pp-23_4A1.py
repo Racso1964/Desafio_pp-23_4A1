@@ -47,7 +47,6 @@ if __name__ == '__main__':
     conn = sqlite3.connect("productos.db")
     c = conn.cursor()
 
-    c.execute("SELECT * FROM productos;")
 
 
     print("terminamos")
